@@ -1,0 +1,28 @@
+
+
+// ESLint Configuration
+{
+    // Extend the Airbnb base configuration
+    "extends": "airbnb-base",
+  
+    // Specify the environment (Node.js in this case)
+    "env": {
+      "node": true
+    },
+  
+    // Override or add specific rules
+    "rules": {
+      // Turn off the linebreak style rule to accommodate different operating systems
+      "linebreak-style": "off",
+  
+      // Enforce the use of double quotes for strings
+      "quotes": [
+        "warn", // Generate a warning if single quotes are used
+        "double" // Enforce double quotes
+      ],
+  
+      // Generate a warning if there are console.log statements
+      "no-console": "warn"
+    }
+  }
+  

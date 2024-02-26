@@ -1,0 +1,48 @@
+/* EmployeeCreate.css */
+
+.create-form {
+    background: #007bff;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  h3 {
+    text-decoration: underline;
+  }
+  
+  .ErrorStyle {
+    color: red;
+  }
+  
+  .button_wrapper {
+    margin-top: 10px;
+  }
+  
+  .user_button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+  .input_wrapper{
+    display:flex;
+    flex-direction: column;
+    flex:1;
+    width:100%;
+  }
+
+  .input_wrapper input, .input_wrapper select{
+    flex:1;
+    padding:1rem;
+    margin:1rem 0;
+    border-radius: 5px;
+  }
+  
+  
+  
